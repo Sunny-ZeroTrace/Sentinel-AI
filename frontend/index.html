@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sentinel AI — Investigation Platform</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div id="onboarding-screen" class="onboarding hidden">
+  <div class="onboarding-card">
+    <div class="onboarding-logo">Sentinel AI</div>
+    <div class="onboarding-tagline">Intelligence for Faster Child Protection Investigations</div>
+    <h1>Connecting to local AI...</h1>
+    <p class="muted">Sentinel AI uses a local LLM through <strong>Ollama</strong> — no cloud, no API keys, nothing leaves this machine.</p>
+    <div id="onb-status" class="status-msg"></div>
+    <div class="onboarding-actions">
+      <button class="btn secondary" id="onb-retry-btn">Retry connection</button>
+      <button class="btn primary" id="onb-skip-btn">Continue anyway</button>
+    </div>
+    <p class="muted" style="margin-top:20px; font-size:12px;">
+      Not connected yet? Install Ollama from <strong>ollama.com</strong>, then run:<br>
+      <code>ollama pull llama3.2:3b</code><br>
+      <code>ollama pull moondream</code>
+    </p>
+  </div>
+</div>
+
+<div id="app-shell" class="app-shell hidden">
+
+  <nav class="sidebar">
+    <div class="brand">
+      <span class="brand-mark">◆</span>
+      <span class="brand-name">Sentinel AI</span>
+    </div>
+    <div class="brand-tagline">Intelligence for Faster Child Protection Investigations</div>
+
+    <div class="nav-group">
+      <a href="#" class="nav-item active" data-view="dashboard">
+        <span class="nav-icon">⌂</span> Dashboard
+      </a>
+      <a href="#" class="nav-item" data-view="cross-case">
+        <span class="nav-icon">⌬</span> Correlation &amp; People
+      </a>
+      <a href="#" class="nav-item" data-view="settings">
+        <span class="nav-icon">⚙</span> Settings
+      </a>
+    </div>
+
+    <div class="sidebar-footer">
+      <div id="key-status" class="key-status">— checking keys —</div>
+    </div>
+  </nav>
+
+  <main class="main-content">
+    <div id="view-dashboard" class="view"></div>
+    <div id="view-case" class="view hidden"></div>
+    <div id="view-cross-case" class="view hidden"></div>
+    <div id="view-settings" class="view hidden"></div>
+  </main>
+</div>
+
+<div id="toast" class="toast hidden"></div>
+
+<script src="app.js"></script>
+</body>
+</html>

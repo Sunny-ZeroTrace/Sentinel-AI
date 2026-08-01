@@ -1,0 +1,172 @@
+INFO:     127.0.0.1:59868 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59868 - "GET /style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56189 - "GET /app.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59868 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56189 - "GET /api/settings/ollama HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59868 - "GET /api/cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61960 - "GET /api/settings/general HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56189 - "GET /api/settings/ollama HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55163 - "GET /api/victims HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61032 - "GET /api/cross-case/edges HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55082 - "GET /api/faces HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55082 - "GET /api/cross-case/graph HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55082 - "GET /api/cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55082 - "GET /api/settings/departments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55082 - "GET /api/settings/general HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55082 - "GET /api/settings/ollama HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65470 - "POST /api/settings/ollama/test HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58959 - "POST /api/settings/ollama HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51048 - "GET /api/settings/departments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51048 - "GET /api/settings/general HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51048 - "GET /api/cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51048 - "GET /api/cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58959 - "GET /api/settings/ollama HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51048 - "GET /api/settings/ollama HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53779 - "POST /api/pick-folder HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53779 - "POST /api/cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53779 - "GET /api/cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53779 - "GET /api/cases/3c8b30e22029 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65357 - "GET /api/cases/3c8b30e22029/graph HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62356 - "GET /api/cases/3c8b30e22029/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53779 - "GET /api/cases/3c8b30e22029/timeline HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55317 - "GET /api/gmail/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55317 - "GET /api/settings/departments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55317 - "GET /api/cases/3c8b30e22029/gmail/threads HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64675 - "GET /api/cases/3c8b30e22029/update-log HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56441 - "POST /api/cases/3c8b30e22029/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50229 - "POST /api/cases/3c8b30e22029/chat/image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51396 - "POST /api/cases/3c8b30e22029/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50544 - "POST /api/cases/3c8b30e22029/gmail/send HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:49375 - "POST /api/cases/3c8b30e22029/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55345 - "POST /api/cases/3c8b30e22029/update-log/regenerate HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55345 - "GET /api/cases/3c8b30e22029/update-log HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51011 - "POST /api/cases/3c8b30e22029/evidence/photo HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /api/cases/3c8b30e22029/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51317 - "POST /api/cases/3c8b30e22029/risk HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51317 - "POST /api/cases/3c8b30e22029/summary-file HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56859 - "GET /api/victims HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64417 - "GET /api/cross-case/edges HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55128 - "GET /api/faces HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64417 - "GET /api/cross-case/graph HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64417 - "GET /api/cases/3c8b30e22029 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64417 - "GET /api/cases/3c8b30e22029/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62163 - "GET /api/gmail/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55128 - "GET /api/cases/3c8b30e22029/graph HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56859 - "GET /api/cases/3c8b30e22029/timeline HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62163 - "GET /api/settings/departments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62163 - "GET /api/cases/3c8b30e22029/gmail/threads HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60323 - "GET /api/cases/3c8b30e22029/update-log HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60323 - "GET /api/cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60323 - "GET /api/cross-case/edges HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56859 - "GET /api/victims HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62163 - "GET /api/faces HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56859 - "GET /api/cross-case/graph HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56859 - "GET /api/settings/departments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56859 - "GET /api/settings/general HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62163 - "POST /api/settings/general HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56859 - "GET /api/settings/ollama HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56859 - "POST /api/settings/general HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52713 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52713 - "GET /style.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:58264 - "GET /app.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58264 - "GET /api/settings/ollama HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58264 - "GET /api/settings/general HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60590 - "GET /api/cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52713 - "GET /api/settings/ollama HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62034 - "GET / HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:62034 - "GET /app.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:62034 - "GET /api/settings/ollama HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53729 - "GET /api/settings/general HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60434 - "GET /api/cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60434 - "GET / HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:60434 - "GET /app.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53729 - "GET / HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:54226 - "GET / HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:60658 - "GET / HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53120 - "GET / HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:63971 - "GET / HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:63971 - "GET /api/settings/ollama HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63768 - "GET /api/settings/general HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49356 - "GET /api/cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63971 - "GET /api/settings/ollama HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49367 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49368 - "GET /api/settings/ollama HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58310 - "GET /api/gmail/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57115 - "GET / HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:57115 - "GET /style.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:62303 - "GET /app.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:62303 - "GET /api/settings/ollama HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57115 - "GET /api/settings/general HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50906 - "GET /api/cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62303 - "GET /api/settings/ollama HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62303 - "GET /api/settings/departments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62303 - "GET /api/settings/general HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59597 - "GET /api/cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59597 - "GET /api/cross-case/edges HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59026 - "GET /api/victims HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59566 - "GET /api/faces HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59597 - "GET /api/cross-case/graph HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59597 - "GET /api/settings/departments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59597 - "GET /api/settings/general HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62303 - "GET /api/settings/ollama HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58963 - "GET /api/gmail/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58964 - "POST /api/sample-case HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51226 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51226 - "GET /style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51226 - "GET /app.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52814 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51226 - "GET /api/settings/ollama HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52814 - "GET /api/cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51226 - "GET /api/settings/ollama HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51226 - "GET /api/cases/d549308996f5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61436 - "GET /api/gmail/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57293 - "GET /api/cases/d549308996f5/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61436 - "GET /api/settings/departments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62121 - "GET /api/cases/d549308996f5/graph HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51226 - "GET /api/cases/d549308996f5/timeline HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62121 - "GET /api/cases/d549308996f5/gmail/threads HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59939 - "GET /api/cases/d549308996f5/update-log HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59939 - "POST /api/cases/d549308996f5/risk HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55060 - "GET /api/cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55060 - "GET /api/cases/d549308996f5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55060 - "GET /api/cases/d549308996f5/timeline HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55333 - "GET /api/gmail/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63215 - "GET /api/cases/d549308996f5/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57626 - "GET /api/cases/d549308996f5/update-log HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58424 - "GET /api/cases/d549308996f5/graph HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55333 - "GET /api/settings/departments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55333 - "GET /api/cases/d549308996f5/gmail/threads HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56592 - "POST /api/cases/d549308996f5/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50563 - "POST /api/cases/d549308996f5/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50563 - "POST /api/cases/d549308996f5/gmail/send HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55739 - "POST /api/cases/d549308996f5/update-log/regenerate HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55739 - "GET /api/cases/d549308996f5/update-log HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55463 - "POST /api/cases/d549308996f5/summary-file HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61768 - "GET /api/cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61768 - "GET /api/cases/3c8b30e22029 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55642 - "GET /api/gmail/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62460 - "GET /api/cases/3c8b30e22029/graph HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61768 - "GET /api/cases/3c8b30e22029/timeline HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62790 - "GET /api/cases/3c8b30e22029/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55642 - "GET /api/settings/departments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55642 - "GET /api/cases/3c8b30e22029/gmail/threads HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56704 - "GET /api/cases/3c8b30e22029/update-log HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64659 - "POST /api/cases/3c8b30e22029/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58641 - "POST /api/cases/3c8b30e22029/gmail/send HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62796 - "GET /api/cross-case/edges HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51383 - "GET /api/victims HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65075 - "GET /api/faces HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62796 - "GET /api/cross-case/graph HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54726 - "GET /api/settings/departments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54726 - "GET /api/settings/general HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54726 - "GET /api/settings/ollama HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54726 - "GET /api/cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54726 - "GET /api/cases/3c8b30e22029 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55232 - "GET /api/gmail/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52383 - "GET /api/cases/3c8b30e22029/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63210 - "GET /api/cases/3c8b30e22029/graph HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54726 - "GET /api/cases/3c8b30e22029/timeline HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63210 - "GET /api/settings/departments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63210 - "GET /api/cases/3c8b30e22029/gmail/threads HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57687 - "GET /api/cases/3c8b30e22029/update-log HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57687 - "POST /api/cases/3c8b30e22029/summary-file HTTP/1.1" 200 OK

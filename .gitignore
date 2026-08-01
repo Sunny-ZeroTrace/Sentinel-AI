@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+sentinel_data/
+gmail_token.json
+gmail_client_secret.json
+.env
